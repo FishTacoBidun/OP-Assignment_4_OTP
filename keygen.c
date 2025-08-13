@@ -23,7 +23,7 @@ int check_if_numeric(const char *input_string)
 //function to generate and print the key.
 void generate_key(int length) 
 {
-    const char char_set[] = "ABCDEFGHIJKLMNOPQRSTUVWQYZ "; //character bank
+    const char char_set[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "; //character bank
     for (int i = 0; i < length; i++) 
     {
         int random_char_index = rand() % 27;
